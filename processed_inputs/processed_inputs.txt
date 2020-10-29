@@ -1,0 +1,12 @@
+# PROCESSED INPUTS DESCRIPTIONS & SOURCE CODES TO GENERATE
+
+reported_deaths_java.rds # reported deaths data formatted as an input for province-level squire model; run: 'suspected_deaths_simulations.R'
+simulated_all_deaths_java.rds # suspected deaths data formatted as an input for province-level squire model; Jakarta data: C19P funerals, Other provinces: simulated suspected deaths as described in the methods; run: 'suspected_deaths_simulations.R'
+best_40k_14d.rds	# output of squire models fitted to confirmed and suspected deaths at province-level in Java as the basis of projections and proportion of people already infected; code to generate: 'province_level_fitting_squire.R'
+matrix_idn_java_nonjava_length_of_travel.rds	# Ramadan and non-Ramadan movement matrices estimated from CDRs data: see method section
+movement_jakarta.csv	# from the movement matrices - sliced for movements from Jakarta only for Figure 3: 'movement_matrix_length_of_travel.R'
+ifr_2_new_squire.rds # district-level infection fatality ratio obtained by simulating multiple times at every district with R0=2, accounting population age-structure; run 'calculate_severity.R'
+p_hosp_2_new_squire.rds # district-level probability of infection requires hospitalisation obtained by simulating multiple times at every district with R0=2, accounting population age-structure; run 'calculate_severity.R'
+p_crit_2_new_squire.rds # district-level probability of hospitalised infection requires critical care obtained by simulating multiple times at every district with R0=2, accounting population age-structure; run 'calculate_severity.R'
+p_death_non_critical_2_new_squire.rds # district-level probability of death of non-critical hospitalised infection obtained by simulating multiple times at every district with R0=2, accounting population age-structure; run 'calculate_severity.R'
+pars_init.rds	# initial model fitting output from squire model as the input for squire fitting to both suspected and confirmed deaths data, to achieve better model fits

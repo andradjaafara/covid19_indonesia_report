@@ -1,0 +1,17 @@
+## RAW DATA SOURCES & DESCRIPTIONS
+
+admin2-reg-pop-java-by-age.csv	# Population by age at district-level in Java from district-level population projections 2010-2020 by Office of National Statistics (Proyeksi Penduduk Kabupaten Kota Tahunan 2010-2020)
+confirmed_suspected_deaths.csv # Province-level weekly confirmed and suspected deaths data from WHO sitreps https://www.who.int/indonesia/news/novel-coronavirus/situation-reports
+hospital_admin2_java.csv	# Total hospital beds capacity data from http://sirs.yankes.kemkes.go.id/fo/home/def
+hospital_capacity_java.csv	# Dedicated covid-19 isolation beds and ICU beds capacity from "Ketahanan Kesehatan dalam Menjalani Tatanan Hidup Baru" document by Indonesia Ministry of Health, August 2020
+idn_deaths.csv		# For provinces other than Jakarta: daily reported number of positive covid-19 deaths based on government daily announcement; data downloaded from KawalCOVID19 online spreadsheet https://kcov.id/daftarpositif
+					# For Jakarta: daily reported number of positive covid-19 deaths from their official covid-19 data monitoring website https://corona.jakarta.go.id/id/data-pemantauan
+idn_funerals.csv	# For Jakarta: daily number of funerals with C19P from https://corona.jakarta.go.id/id/data-pemantauan; For other provinces in Java: daily suspected deaths from WHO sitreps divided by 7 as the WHO sitreps provided weekly data https://www.who.int/indonesia/news/novel-coronavirus/situation-reports
+idn_hospitalised.csv	# Daily number of confirmed and suspected covid-19 cases currently hospitalised. Jakarta data from https://corona.jakarta.go.id/id/data-pemantauan; Other provinces data from each respective official website, collated daily in https://kcov.id/daftarpositif
+idn_positives.csv	# For provinces other than Jakarta: daily reported number of positive covid-19 cases based on government daily announcement; data downloaded from KawalCOVID19 online spreadsheet https://kcov.id/daftarpositif
+					# For Jakarta: daily reported number of positive covid-19 cases from their official covid-19 data monitoring website https://corona.jakarta.go.id/id/data-pemantauan 
+idn_region.csv		# Contains name of all provinces in Indonesia and categorised them into: 1) Jakarta; 2) Other Java Provinces; 3) Outside Java
+idn_tests.csv		# Daily number of people tested for sars-cov-2 and the number of positive tests. Source for Jakarta: https://corona.jakarta.go.id/id/data-pemantauan; For national level: daily tweets from official twitter account of Indonesia National Board for Disaster Management/covid-19 task force https://twitter.com/BNPB_Indonesia
+jakarta_covid_data_evaluate.csv	# Daily reported deaths, cases, funerals with C19P, people currently hospitalised, people currently self-isolating from Jakarta official covid-19 data monitoring website https://corona.jakarta.go.id/id/data-pemantauan
+pop_province_2020.csv	# Province-level total population in 2020 for all provinces in Indonesia; from Office of National Statistics Projections 2015-2045 (SUPAS): https://www.bps.go.id/indicator/12/1886/1/jumlah-penduduk-hasil-proyeksi-menurut-provinsi-dan-jenis-kelamin.html
+urban_rural_flag.csv	# All districts in Java categorised into urban (1) or rural (0) based on the proportion of villages classified as urban or rural based on the Office of National Statistics classifications

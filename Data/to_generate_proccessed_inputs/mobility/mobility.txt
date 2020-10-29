@@ -1,0 +1,5 @@
+## MOBILITY DATA SOURCES & DESCRIPTIONS
+Global_Mobility_Report_2020_09_01_ID.csv	# Google COVID-19 Community Mobility Reports from https://www.google.com/covid19/mobility/; the dataset was filtered so it only contains Indonesia-related data
+applemobilitytrends-2020-09-02_ID.csv		# Apple COVID-19 Mobility Trends Reports from https://covid19.apple.com/mobility; the dataset was filtered so it only contains Indonesia-related data
+google_admin_ref.csv					# Renaming and reformatting of province names in Google Community Mobility Reports data
+apple_admin_ref.csv						# Renaming and reformatting of province names in Apple Mobility Trends Reports data
